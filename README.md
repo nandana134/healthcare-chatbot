@@ -36,7 +36,7 @@ HealthCareChatbot/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/nandana134/health-care-chatbot.git
+git clone https://github.com/nandana134/healthcare-chatbot.git
 cd healthcare-chatbot
 ```
 
