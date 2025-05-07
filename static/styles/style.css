@@ -1,0 +1,139 @@
+/* General Styles */
+body {
+  font-family: "Comic Sans MS", "Arial", sans-serif;
+  background-color: #96d2cb;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.msger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 600px;
+  height: 80vh;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.msger-header {
+  background: #ffcad4;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #6d6875;
+}
+
+.msger-chat {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  background: #f8edeb;
+}
+
+.msger-inputarea {
+  display: flex;
+  padding: 10px;
+  background: #ffcad4;
+}
+
+.msger-input {
+  flex: 1;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 1rem;
+  outline: none;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.msger-send-btn {
+  background: #ffb4a2;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin-left: 10px;
+  font-size: 1rem;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.msger-send-btn:hover {
+  background: #c78082;
+}
+
+/* Message Styles */
+.msg {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+
+.msg:last-of-type {
+  margin-bottom: 0;
+}
+
+.msg-img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+}
+
+.msg-bubble {
+  max-width: 70%;
+  padding: 10px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.msg-info {
+  margin-bottom: 5px;
+  font-size: 0.8rem;
+  color: #6d6875;
+}
+
+.msg-info-name {
+  font-weight: bold;
+}
+
+.msg-info-time {
+  margin-left: 10px;
+}
+
+.msg-text {
+  font-size: 1rem;
+  color: #6d6875;
+}
+
+.left-msg .msg-bubble {
+  background: #ffb4a2;
+  color: #fff;
+}
+
+.right-msg {
+  flex-direction: row-reverse;
+}
+
+.right-msg .msg-bubble {
+  background: #bde0fe;
+  color: #000;
+}
+
+.right-msg .msg-img {
+  margin-left: 10px;
+  margin-right: 0;
+}

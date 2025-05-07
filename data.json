@@ -1,0 +1,145 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey", "Is anyone there?", "Good morning", "Good evening"],
+        "responses": ["Hello! How can I assist you with your health today?", "Hi there! What health issue are you facing?"]
+      },
+      {
+        "tag": "fever",
+        "patterns": ["I have fever", "Fever", "Running temperature", "I'm feeling hot", "Body temperature is high"],
+        "responses": ["You may have a fever. Common symptoms include high body temperature, chills, and sweating. Fever can be caused by infections, flu, or inflammation. Rest and hydration are key, and you can take paracetamol if needed. If it lasts more than 3 days, consult a doctor."]
+      },
+      {
+        "tag": "cold",
+        "patterns": ["I have cold", "Runny nose", "Stuffy nose", "Sneezing", "Nasal congestion"],
+        "responses": ["Cold is typically caused by a viral infection. Symptoms include runny nose, sneezing, and a sore throat. It may last 5-7 days. Steam inhalation, warm fluids, and vitamin C-rich foods may help. If it lasts longer, see a doctor."]
+      },
+      {
+        "tag": "cough",
+        "patterns": ["I have cough", "Dry cough", "Wet cough", "Can't stop coughing"],
+        "responses": ["A cough can be a sign of a cold or respiratory infection. You may experience a dry or productive cough. Causes include viruses, allergies, or pollutants. Drink warm water, honey with ginger, and avoid cold foods. If it persists, consult a doctor."]
+      },
+      {
+        "tag": "headache",
+        "patterns": ["I have headache", "My head hurts", "Pain in head"],
+        "responses": ["Headaches can be caused by stress, dehydration, or poor posture. Symptoms include sharp pain or dull ache in the head. Drink water, take a break, and rest. If headaches are frequent or severe, seek medical advice."]
+      },
+      {
+        "tag": "sore_throat",
+        "patterns": ["Sore throat", "My throat hurts", "Pain while swallowing"],
+        "responses": ["A sore throat is often caused by viral infections like colds or bacteria like strep throat. Symptoms include pain, scratchiness, or swelling in the throat. Gargling with salt water, having warm fluids, and lozenges can help. If it lasts more than 5-7 days, consult a doctor."]
+      },
+      {
+        "tag": "indigestion",
+        "patterns": ["Indigestion", "Stomach discomfort", "Bloating", "Acid reflux"],
+        "responses": ["Indigestion often occurs after overeating, eating spicy food, or stress. You may feel bloated, gassy, or have heartburn. Try eating lighter meals, drinking warm water, and avoiding trigger foods. If symptoms persist, consult a doctor."]
+      },
+      {
+        "tag": "vomiting",
+        "patterns": ["Vomiting", "Nausea", "I feel like vomiting", "Threw up"],
+        "responses": ["Vomiting is caused by a variety of factors like infections, food poisoning, or motion sickness. You may feel nauseous, dizzy, or weak. Stay hydrated, sip on ORS, and avoid oily foods. If it’s persistent, consult a doctor."]
+      },
+      {
+        "tag": "acidity",
+        "patterns": ["Acidity", "Heartburn", "Burning in chest", "Acid reflux"],
+        "responses": ["Acidity occurs when stomach acid backs up into the esophagus. Symptoms include a burning sensation in the chest or throat. It can be caused by spicy food, caffeine, or lying down after eating. Drink water, avoid acidic foods, and consider antacids if needed."]
+      },
+      {
+        "tag": "diarrhea",
+        "patterns": ["Loose motions", "Diarrhea", "Frequent stools"],
+        "responses": ["Diarrhea is often caused by infections, food poisoning, or stress. Symptoms include frequent loose stools and cramping. Drink ORS to stay hydrated and avoid spicy or greasy foods. If symptoms last more than 2-3 days or worsen, consult a doctor."]
+      },
+      {
+        "tag": "constipation",
+        "patterns": ["Constipation", "Not passing stool", "Hard stool"],
+        "responses": ["Constipation occurs due to low fiber intake, dehydration, or inactivity. You may experience difficulty passing stool or hard stools. Increase fiber in your diet, drink more water, and stay active. If it continues, seek medical advice."]
+      },
+      {
+        "tag": "high_bp",
+        "patterns": ["High blood pressure", "My BP is high", "Feeling dizzy and pressure is high"],
+        "responses": ["High blood pressure can be caused by stress, unhealthy diet, or genetics. Symptoms include dizziness, headaches, or blurred vision. Avoid salty foods, caffeine, and stress. Take prescribed medication and monitor BP regularly."]
+      },
+      {
+        "tag": "low_bp",
+        "patterns": ["Low blood pressure", "Low BP", "Feeling faint"],
+        "responses": ["Low blood pressure can occur due to dehydration, standing up too quickly, or a poor diet. Symptoms include dizziness, fainting, and fatigue. Drink more water, eat saltier foods in moderation, and rest. If it happens often, consult a doctor."]
+      },
+      {
+        "tag": "diabetes",
+        "patterns": ["High sugar", "Diabetes", "Sugar level is high"],
+        "responses": ["High blood sugar may be a sign of diabetes. Symptoms include increased thirst, frequent urination, and fatigue. Control your diet, exercise regularly, and follow the treatment plan prescribed by your doctor."]
+      },
+      {
+        "tag": "fatigue",
+        "patterns": ["Tired", "Fatigue", "Exhausted", "No energy"],
+        "responses": ["Fatigue can be caused by stress, lack of sleep, or anemia. Symptoms include constant tiredness and low energy. Get enough sleep, eat a balanced diet, and stay hydrated. If it persists, consult a doctor."]
+      },
+      {
+        "tag": "body_ache",
+        "patterns": ["Body pain", "Body ache", "All over pain"],
+        "responses": ["Body aches can be caused by flu, stress, or overexertion. Symptoms include generalized pain and soreness. Take rest, stay hydrated, and use mild painkillers if necessary. If it's persistent or severe, see a doctor."]
+      },
+      {
+        "tag": "joint_pain",
+        "patterns": ["Joint pain", "Knee pain", "Elbow pain"],
+        "responses": ["Joint pain can be caused by arthritis, overuse, or injury. Symptoms include pain, swelling, and stiffness in the joints. Rest the joint, apply cold compresses, and take anti-inflammatory medications. If it persists, visit an orthopedic specialist."]
+      },
+      {
+        "tag": "acne",
+        "patterns": ["Pimples", "Acne", "Breakouts"],
+        "responses": ["Acne can be caused by hormonal changes, stress, or poor skincare. Symptoms include pimples, blackheads, and cysts. Keep your skin clean, avoid oily foods, and use acne treatments. For severe cases, see a dermatologist."]
+      },
+      {
+        "tag": "itching",
+        "patterns": ["Itching", "Skin irritation", "Allergic rash"],
+        "responses": ["Itching can be caused by dry skin, allergies, or infections. Symptoms include redness, rash, or swelling. Apply calamine lotion, keep your skin cool, and avoid allergens. Consult a doctor if rashes spread."]
+      },
+      {
+        "tag": "menstrual_cramps",
+        "patterns": ["Period pain", "Menstrual cramps", "Lower abdomen pain"],
+        "responses": ["Menstrual cramps are caused by hormonal changes during periods. Symptoms include pain in the lower abdomen and back. Use heat pads, rest, and take mild painkillers. If cramps are severe, consult a gynecologist."]
+      },
+      {
+        "tag": "stress",
+        "patterns": ["I'm stressed", "Stress", "Too much pressure"],
+        "responses": ["Stress can be caused by work pressure, deadlines, or personal issues. Symptoms include anxiety, tension, and irritability. Practice deep breathing, take breaks, and try relaxation techniques."]
+      },
+      {
+        "tag": "anxiety",
+        "patterns": ["Anxiety", "I'm anxious", "Feeling nervous"],
+        "responses": ["Anxiety can be triggered by stress or worry. Symptoms include nervousness, rapid heartbeat, and restlessness. Try mindfulness techniques, exercise, and avoid caffeine. If it's severe, seek professional help."]
+      },
+      {
+        "tag": "insomnia",
+        "patterns": ["Can't sleep", "Insomnia", "Trouble sleeping"],
+        "responses": ["Insomnia can be caused by stress, poor sleep hygiene, or medical conditions. Symptoms include difficulty falling asleep or staying asleep. Avoid screens before bed, try warm milk, and create a sleep routine."]
+      },
+      {
+        "tag": "dehydration",
+        "patterns": ["Dehydrated", "Dry mouth", "No water intake"],
+        "responses": ["Dehydration can be caused by not drinking enough water, excessive sweating, or illnesses. Symptoms include dry mouth, dark urine, and dizziness. Drink plenty of water and electrolytes to rehydrate."]
+      },
+      {
+        "tag": "dizziness",
+        "patterns": ["Feeling dizzy", "Lightheaded", "Room spinning"],
+        "responses": ["Dizziness can be caused by dehydration, low blood pressure, or ear infections. Symptoms include lightheadedness, nausea, and unsteadiness. Lie down, sip water, and rest. If it continues, consult a doctor."]
+      },
+      {
+        "tag": "emergency",
+        "patterns": ["Severe pain", "Can't breathe", "Heart pain", "Fainting", "Bleeding"],
+        "responses": ["This may be serious. Please seek immediate medical help or go to the nearest hospital."]
+      },
+      {
+        "tag": "bye",
+        "patterns": [ "Goodbye", "See you", "Take care", "Catch you later"],
+        "responses": ["Goodbye! Take care and stay healthy.", "See you soon! Wishing you good health."]
+      },
+      {
+        "tag": "noanswer",
+        "patterns": ["asdfgh", "qwerty", "random text", "unknown input", "gibberish"],
+        "responses": ["I'm sorry, I don't recognize that. Please try asking about a health issue like 'fever', 'headache', or 'cough'."]
+      }
+    ]
+  }
+  
